@@ -10,9 +10,12 @@ function NewRecipe({ user }) {
   const [instructions, setInstructions] = useState(`Here's how you make it.
   
 ## Ingredients
+
 - 1c Sugar
 - 1c Spice
+
 ## Instructions
+
 **Mix** sugar and spice. _Bake_ for 30 minutes.
   `);
   const [errors, setErrors] = useState([]);
